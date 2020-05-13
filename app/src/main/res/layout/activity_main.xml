@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/another"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="200dp"
+        android:background="@drawable/textround"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="No. of Columns"
+        android:inputType="number"
+        tools:background="@drawable/textround" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="No. of Rows"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:ems="10"
+        android:inputType="number"
+        android:gravity="center"
+        android:background="@drawable/textround"
+        />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="No. of Players"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:ems="10"
+        android:inputType="number"
+        android:gravity="center"
+        android:background="@drawable/textround"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_alignTop="@+id/editText3"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+
+        android:text="START"
+        android:onClick="play"
+        android:background="@drawable/roundbtn"/>
+</RelativeLayout>
